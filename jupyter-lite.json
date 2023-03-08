@@ -91,13 +91,6 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.dd1fb26c3665399a7b1b.js",
-        "name": "divemarkdownit",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
         "load": "static/remoteEntry.e6bd1eec9b5a4a6a3151.js",
         "name": "divemathjax3",
         "style": "./style"
@@ -137,6 +130,13 @@
         "liteExtension": false,
         "load": "static/remoteEntry.791e3bf8194bf9657309.js",
         "name": "jupyterlab-filesystem-access",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.454df53006c0ad77c322.js",
+        "name": "jupyterlab-myst",
         "style": "./style"
       },
       {
