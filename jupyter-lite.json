@@ -10,6 +10,12 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.8e7eaccf88569d554db8.js",
+        "name": "@agoose77/jupyterlab-markup"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.ea560b1069a7ce3142f5.js",
         "mimeExtension": "./mimeExtension",
         "name": "@deathbeds/ipydrawio"
@@ -135,7 +141,7 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.454df53006c0ad77c322.js",
+        "load": "static/remoteEntry.b65dd4fef9fa6e2779f9.js",
         "name": "jupyterlab-myst",
         "style": "./style"
       },
