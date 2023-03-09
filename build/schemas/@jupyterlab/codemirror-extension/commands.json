@@ -191,48 +191,26 @@
       "default": true
     },
     "styleActiveLine": {
-      "oneOf": [
-        {
-          "type": "boolean",
-          "title": "Boolean"
-        },
-        {
-          "type": "object",
-          "properties": {
-            "nonEmpty": {
-              "type": "boolean"
-            }
-          },
-          "title": "Object"
-        }
-      ],
+      "type": ["boolean", "object"],
       "title": "Style Active Line",
-      "description": "Highlight active line. Value is boolean, or { nonEmpty: boolean }.",
+      "description": "Value is boolean, or { nonEmpty: boolean }",
       "default": false
     },
     "styleSelectedText": {
       "type": "boolean",
       "title": "Style Selected Text",
+      "description": "Value is boolean",
       "default": true
     },
     "selectionPointer": {
-      "oneOf": [
-        {
-          "type": "boolean",
-          "title": "Use default"
-        },
-        {
-          "type": "string",
-          "title": "Cursor pointer name"
-        }
-      ],
+      "type": ["boolean", "string"],
       "title": "Selection Pointer",
-      "description": "Control the mouse cursor appearance when hovering over the selection. Value is boolean or string, e.g. 'pointer'.",
+      "description": "Value is boolean or string, e.g. 'pointer'",
       "default": false
     },
     "lineWiseCopyCut": {
       "type": ["boolean"],
-      "title": "Line-wise Ctrl-C",
+      "title": "Ctrl-C",
       "description": "When enabled, which is the default, doing copy or cut when there is no selection will copy or cut the whole lines that have cursors on them.",
       "default": true
     }

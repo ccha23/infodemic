@@ -257,11 +257,11 @@ async function main() {
   const preloader = document.getElementById(LITE_MAIN);
   const bundle = document.createElement('script');
   bundle.src = preloader.href;
-  bundle.main = preloader.attributes.main;
+  bundle.main = preloader.main;
   document.head.appendChild(bundle);
 }
 
 /**
  * TODO: consider better pattern for invocation.
  */
-await main();
+void main();

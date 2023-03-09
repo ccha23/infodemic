@@ -6,7 +6,7 @@
       {
         "command": "filebrowser:open-browser-tab",
         "selector": ".jp-DirListing-item[data-isdir=\"false\"]",
-        "rank": 1.6
+        "rank": 3
       }
     ]
   },

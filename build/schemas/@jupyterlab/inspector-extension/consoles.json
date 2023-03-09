@@ -5,8 +5,7 @@
     "context": [
       {
         "command": "inspector:open",
-        "selector": ".jp-CodeConsole-promptCell",
-        "rank": 5
+        "selector": ".jp-CodeConsole-promptCell"
       }
     ]
   },
