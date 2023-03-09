@@ -12,6 +12,7 @@ jupyterlab-language-pack-zh-CN
 ghp-import
 jupyterlab-deck<=0.1.3
 jupyterlab-myst<=0.1.7a5
+jupytext<=1.14.*
 
 
 # jupyterlite
