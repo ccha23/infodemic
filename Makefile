@@ -14,7 +14,6 @@ build:
 	cd $(jl_folder) && \
 	$(activate_conda) && \
 	jupyter lite build --contents=../source && \
-	jupyter lite build --contents=../source && \
 	python kernel2pyodide.py
     
 page:
