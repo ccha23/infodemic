@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "dio/js/jquery/jquery-3.6.0.min.js";

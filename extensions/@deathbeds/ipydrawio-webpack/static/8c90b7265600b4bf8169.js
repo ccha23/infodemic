@@ -1,1 +1,0 @@
-export default __webpack_public_path__ + "dio/js/stencils.min.js";
